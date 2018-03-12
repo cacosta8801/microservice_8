@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 
 EXPOSE 5007:5007
-CMD python microservicepython.py
+CMD python microservice_Reg_Catalogo.py
 
 ADD . /code
 WORKDIR /code
